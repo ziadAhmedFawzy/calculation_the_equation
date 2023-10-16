@@ -1,0 +1,32 @@
+body {
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    font-family: "cairo";
+    text-transform: capitalize;
+    background-color: #222;
+    color: #e91e63;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+}
+
+header {
+    text-align: center;
+}
+
+header button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #e91e63;
+    border-radius: 10px;
+    color: #e91e63;
+    transition-duration: 0.2s;
+}
+
+header button:hover {
+    background-color: #e91e63;
+    color: #fff;
+}
